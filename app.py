@@ -1,14 +1,4 @@
 
-'''These **triple backticks** are used in Markdown, not in Python. If you copied code from chat, those lines cause errors.
-
----
-
-# Fix for your `app.py`
-
-Make sure your code **does NOT contain ``` anywhere** and that everything after `if` is properly indented.
-
-Correct version of your **clean `app.py`**:'''
-
 # python
 import streamlit as st
 import pandas as pd
@@ -53,3 +43,5 @@ question = st.text_input("Ask about your dataset")
 if question:
     answer = ask_llm(question)
     st.write(answer)
+st.markdown("---")
+st.markdown("Developed by **Swarup Raut** 🚀")
