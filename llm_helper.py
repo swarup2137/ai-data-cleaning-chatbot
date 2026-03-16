@@ -1,9 +1,9 @@
+import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain_classic.memory import ConversationBufferMemory
 from langchain_classic.chains import ConversationChain
-from decouple import config
 
-api_key = config("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
 
 llm = ChatOpenAI(
     api_key=api_key,
