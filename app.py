@@ -5,9 +5,9 @@ import pandas as pd
 from data_cleaner import clean_data
 from llm_helper import ask_llm
 
-st.title("AI Data Assistant")
+st.title("Auto Data Analyst")
 
-st.header("AI Data Cleaning Chatbot")
+st.header("AI Data Cleaner")
 
 uploaded_file = st.file_uploader("Upload CSV or Excel", type=["csv", "xlsx"])
 
