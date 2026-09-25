@@ -81,6 +81,6 @@ streamlit run app.py
 
 ## Author
 
-Swarup Rait
+Swarup Raut
 
 GitHub: https://github.com/yourusername
